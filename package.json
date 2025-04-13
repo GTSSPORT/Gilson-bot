@@ -1,12 +1,15 @@
 {
   "name": "gtssport-bot",
   "version": "1.0.0",
+  "description": "Bot GTSSPORT para automação no CorelDRAW com WhatsApp",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "venom-bot": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "qrcode-terminal": "^0.12.0",
     "openai": "^4.0.0"
   }
 }
